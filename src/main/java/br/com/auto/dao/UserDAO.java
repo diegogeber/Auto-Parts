@@ -1,6 +1,6 @@
-package dao;
+package br.com.auto.dao;
 
-import model.User;
+import br.com.auto.model.User;
 
 public class UserDAO {
 	public boolean checkLogin(User user) {

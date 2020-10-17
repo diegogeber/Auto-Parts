@@ -1,4 +1,4 @@
-package model;
+package br.com.auto.model;
 
 public class User {
 	private String username;

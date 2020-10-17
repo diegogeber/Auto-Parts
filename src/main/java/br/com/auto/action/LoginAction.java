@@ -1,9 +1,9 @@
-package action;
+package br.com.auto.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import dao.UserDAO;
-import model.User;
+import br.com.auto.dao.UserDAO;
+import br.com.auto.model.User;
 
 public class LoginAction extends ActionSupport {
     /**
