@@ -6,8 +6,14 @@
      
     <bean id="loginActionBean" class="br.com.auto.action.LoginAction">
         <property name="userDAO" ref="userDAO" />
-    </bean>      
+    </bean>
+    
+    <bean id="carActionBean" class="br.com.auto.action.CarAction">
+        <property name="carService" ref="carService" />
+    </bean>       
      
     <bean id="userDAO" class="br.com.auto.dao.UserDAO" />
+    
+    <bean id="carService" class="br.com.auto.service.CarService" />
          
 </beans>

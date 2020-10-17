@@ -9,7 +9,18 @@
 </head>
 <body>
     <div align="center">
-        <h1>Hello World</h1>
+        <form action ="saveCar">
+         <label for = "nome">Nome:</label><br/>
+         <input type = "text" name = "nome"/><br/><br/>
+         
+         <label for = "ano">Ano:</label><br/>
+         <input type = "text" name = "ano"/><br/><br/>
+         
+         <label for = "cambio">Cambio:</label><br/>
+         <input type = "text" name = "cambio"/><br/><br/>
+         
+         <input type = "submit" value = "Enviar"/>
+      </form>
     </div>
 </body>
 </html>
