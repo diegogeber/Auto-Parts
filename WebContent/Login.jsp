@@ -11,7 +11,7 @@
 <body>
     <div align="center">
         <h1>Auto-Parts</h1>
-        <h2>Users Login</h2>
+        <h2>Login</h2>
         <s:form action="login" method="post">
             <s:textfield label="Username" name="user.username" />
             <s:password label="Password" name="user.password" />
